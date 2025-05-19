@@ -1,3 +1,4 @@
+//original unseparated code component 
 import React from 'react'
 
 const Component = () => {

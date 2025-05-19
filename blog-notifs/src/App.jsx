@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Component from './components/Component'
+import MainComponent from './components/MainComponent'
 import Footer from './components/Footer'
 
 function App() {
@@ -11,9 +12,14 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Component/>
-      <Footer/>
+      
+        <Navbar/>
+        <MainComponent/>
+        {/* <Component/> */}
+        <Footer />
+
+     
+
     </>
   )
 }
