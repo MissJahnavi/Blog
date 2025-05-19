@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import Component1 from './components/Component1'
+// import Component1 from './components/Component1'
+import MainComponent from './components/MainComponent'
 
 
 
@@ -12,8 +13,12 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Component1/>
+     <div className="min-h-screen bg-white"> 
+     <Navbar/>
+     <MainComponent/>
+
+     </div>
+     
       
 
     </>
